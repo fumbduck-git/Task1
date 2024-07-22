@@ -3,10 +3,9 @@ import matplotlib.pyplot as plt
 temperature = float(input("Enter temperature (°C): "))
 humidity = float(input("Enter humidity (%): "))
 pressure = float(input("Enter pressure (hPa): "))
-
-a = 0.02
-b = -0.6
-c = 30
+a = 0.015
+b = -0.7
+c = 20
 
 precipitation = a * temperature**2 + b * humidity + c
 print(f"Precipitation: {precipitation}")
